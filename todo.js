@@ -117,7 +117,7 @@ function showActive() {
   }
 }
 
-//clear completed Functon
+//clear completed Function
 function clearCompleted() {
   const completedObject = document.getElementsByClassName("completed");
   while (completedObject.length > 0) {
