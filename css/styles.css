@@ -119,6 +119,13 @@ body {
 .each-item {
     display: flex;
 }
+.completed {
+    text-decoration: line-through;
+    color:var(--color-secondary);
+}
+.invisible {
+    display: none;
+}
 @media screen and (min-width:800px) {
     .header {
         background-image: url(/images/bg-desktop-light.jpg);
@@ -130,12 +137,5 @@ body {
     margin-top: 7%;
     width: 40vw;
     height: 70vh; 
-}
-.completed {
-    text-decoration: line-through;
-    color:var(--color-secondary);
-}
-.invisible {
-    display: none;
 }
 }
